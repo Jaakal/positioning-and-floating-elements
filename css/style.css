@@ -425,6 +425,32 @@ header figcaption span:last-of-type {
 
 .collage {
   
+    width: 100%;
+    background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png") no-repeat;
+    background-size: contain;
+    height: 576px;
+}
+
+#p1, #p2 , #p3, #p4, #p5 , #p6, #p7 , #p8{
+    width: 228px;
+    float: left;
+}
+
+#p1 span, #p2 span, #p3 span, #p4 span, #p5 span, #p6 span, #p7 span, #p8 span{
+    font-weight: bold;
+}
+
+#p1, #p2 , #p3, #p4{
+    margin-top: 143px;
+
+}
+
+#p5 , #p6, #p7 , #p8{
+    margin-top: 150px;
+}
+
+#p1, #p2 , #p3, #p5, #p6, #p7{
+    margin-right: 11px;
 }
 
 /* theory of inflation */
@@ -446,6 +472,11 @@ header figcaption span:last-of-type {
   line-height: 16.5px;
   font-weight: 400px;
   color: #666666;
+}
+
+.collage_footer{
+   width: 945px;
+   margin: 0 auto;
 }
 
 /* footer */
