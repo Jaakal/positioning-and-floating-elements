@@ -418,13 +418,12 @@ header figcaption span:last-of-type {
   line-height: 15px;
 }
 
-.as-big-as-it-gets strong {
+.headline strong {
   font-size: 22px;
   font-weight: bolder;
 }
 
 .collage {
-  
     width: 100%;
     background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png") no-repeat;
     background-size: contain;
@@ -436,20 +435,20 @@ header figcaption span:last-of-type {
     float: left;
 }
 
-#p1 span, #p2 span, #p3 span, #p4 span, #p5 span, #p6 span, #p7 span, #p8 span{
+#p1 span, #p2 span, #p3 span, #p4 span, #p5 span, #p6 span, #p7 span, #p8 span {
     font-weight: bold;
 }
 
-#p1, #p2 , #p3, #p4{
+#p1, #p2 , #p3, #p4 {
     margin-top: 143px;
 
 }
 
-#p5 , #p6, #p7 , #p8{
+#p5, #p6, #p7, #p8 {
     margin-top: 150px;
 }
 
-#p1, #p2 , #p3, #p5, #p6, #p7{
+#p1, #p2, #p3, #p5, #p6, #p7 {
     margin-right: 11px;
 }
 
@@ -474,9 +473,77 @@ header figcaption span:last-of-type {
   color: #666666;
 }
 
-.collage_footer{
+.collage-footer{
    width: 945px;
-   margin: 0 auto;
+   margin: 24px auto 40px auto;
+}
+
+.collage-footer:before {
+    width: 60px;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin: 0 0 13px;
+    background-color: #000;
+}
+
+/* video modul */
+
+.video-modul {
+  width: 600px;
+  margin: 43px auto;
+}
+
+.video-modul iframe {
+    width: 600px;
+    height: 357.5px
+}
+
+.video-modul figcaption {
+  margin: 10px 20px 0 0;
+  font-family: georgia,'times new roman',times,serif;
+  text-align: left;
+  color: #666;
+}
+
+.video-modul figcaption .part-one {
+  margin-right: 7px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+}
+
+.video-modul figcaption .part-two {
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #888888;
+}
+
+/* telescope image modul */
+
+.telescope-image-modul {
+  max-width: 720px;
+  margin: 40px auto 0 auto;
+}
+
+.telescope-image-modul img {
+  max-width: 720px;
+}
+
+.telescope-image-modul figcaption span:first-of-type {
+  margin-right: 7px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #666;
+}
+
+.telescope-image-modul figcaption span:last-of-type {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #888888;
 }
 
 /* footer */
