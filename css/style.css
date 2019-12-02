@@ -1,0 +1,459 @@
+body {
+    font-family: "times new roman", times, serif;
+    color: #333;
+    background-color: white;
+    overflow-x: hidden;
+  }
+  
+  .main-container {
+    height: 100vh;
+  }
+  
+  /* navbar */
+  nav {
+    height: 43px;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  
+  .navbar-inner-wrapper {
+    height: 100%;
+    max-width: 1605px;
+    margin: 0 auto;
+  }
+  
+  .hamburger-icon,
+  .magnifying-glass-icon {
+    float: left;
+    height: 42px;
+    width: 42px;
+    padding: 13px;
+  }
+  
+  .space-cosmos {
+    float: left;
+    padding: 12px 13px;
+    font-size: 13px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.7px;
+    line-height: 18px;
+    color: #000000;
+  }
+  
+  .navbar-headline {
+    display: block;
+    width: 195px;
+    padding-top: 10px;
+    margin: auto;
+  }
+  
+  .navbar-button {
+    float: right;
+    border-radius: 3px;
+    font-family: 'Libre Franklin', sans-serif;
+    -webkit-transition: ease 0.6s;
+    transition: ease 0.6s;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #567b95;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    -webkit-letter-spacing: 0.05em;
+    -moz-letter-spacing: 0.05em;
+    -ms-letter-spacing: 0.05em;
+    letter-spacing: 0.05em;
+    padding: 11px 12px 8px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .navbar-button:first-of-type {
+    margin-right: 13px;
+  }
+  
+  .navbar-button:last-of-type {
+    margin-right: 7px;
+  }
+  
+  .navbar-button:hover {
+    background-color: #326891;
+  }
+  
+  /* article */
+  .scrollable-section {
+    height: calc(100vh - 43px - 56px);
+    overflow-y: scroll;
+  }
+  
+  header {
+    margin-top: 45px;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+  
+  header h1 span {
+    display: inline-block;
+    padding: 0 214px 20px 0;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 48px;
+    font-weight: bold;
+  }
+  
+  header figure {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  header figure img {
+    width: 100%;
+  }
+  
+  header figcaption {
+    max-width: 900px;
+    margin-top: 8px;
+    text-align: left;
+    color: #666;
+  }
+  
+  header figcaption span:first-of-type {
+    margin-right: 7px;
+    font-size: 16.5px;
+  }
+  
+  header figcaption span:last-of-type {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .menu {
+    width: 600px;
+    max-width: 600px;
+    margin: 25px auto;
+    color: #121212;
+  }
+  
+  .author {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .author a {
+    font-size: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+  }
+  
+  .menu-bar {
+    width: 100%;
+    height: 34px;
+  }
+  
+  .menu-bar time {
+    float: left;
+    padding-top: 9px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #333;
+  }
+  
+  .rounded-button {
+    float: right;
+    width: 27px;
+    height: 27px;
+    padding: 5px;
+    margin-right: 16px;
+    background: transparent;
+    display: inline-block;
+    background-color: #eee;
+    border: 1px solid #eee;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  
+  .rounded-button svg {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .rounded-button:hover {
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  .save-for-later-button {
+    float: right;
+    padding: 0;
+    margin-right: 16px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .save-for-later-button:hover svg g g {
+    stroke: rgba(0, 0, 0, 0.2);
+  }
+  
+  .comments-button {
+    float: right;
+    min-width: 24px;
+    height: 25px;
+    margin-top: 1px;
+    background-color: transparent;
+    text-transform: uppercase;
+    border-style: none;
+    overflow: visible;
+    padding: 0px 0px 4px;
+    cursor: pointer;
+  }
+  
+  .comments-button i {
+    position: relative;
+    min-width: 26px;
+    min-height: 14px;
+    width: auto;
+    background: transparent;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    padding: 4px;
+  }
+  
+  .comments-button i span:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -7px;
+    left: 15px;
+    width: 0px;
+    border-color: #666666 transparent;
+    border-style: solid;
+    border-width: 6px 0px 0px 8px;
+  }
+  
+  .comments-button i span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    left: 16px;
+    width: 0px;
+    border-color: #ffffff transparent;
+    border-style: solid;
+    border-width: 6px 0px 0px 6px;
+  }
+  
+  .comments-button:hover i {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .comments-button:hover i span:before {
+    border-color: #cccccc transparent;
+  }
+  
+  .paragraph-wrapper {
+    width: 1200px;
+    margin: 0 auto 16px auto;
+    color: #333;
+    position: relative;
+  }
+  
+  .paragraph-wrapper .main-text {
+    max-width: 600px;
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+  }
+  
+  .paragraph-wrapper .main-text p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  
+  .paragraph-wrapper .main-text p a {
+    color: #326891;
+  }
+  
+  .paragraph-wrapper .main-text p a:hover {
+    text-decoration: none;
+  }
+  
+  .sign-up {
+    float: right;
+    width: 210px;
+    padding: 0 15px;
+    margin-top: 213px;
+  }
+  
+  .sign-up h2 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+  }
+  
+  .sign-up p {
+    font-size: 15px;
+    line-height: 16px;
+    color: #666666;
+  }
+  
+  .sign-up-button {
+    width: 180px;
+    border-radius: 3px;
+    font-family: 'Libre Franklin', sans-serif;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #567b95;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    -webkit-letter-spacing: 0.05em;
+    -moz-letter-spacing: 0.05em;
+    -ms-letter-spacing: 0.05em;
+    letter-spacing: 0.05em;
+    padding: 11px 0 8px 0;
+    margin-top: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .sign-up-button:hover {
+    background-color: #326891;
+  }
+  
+  .editors-picks {
+    float: right;
+    width: 210px;
+  }
+  
+  .editors-picks h2 {
+    font-weight: 700;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  
+  .editors-picks article {
+    margin-bottom: 15px;
+  }
+  
+  .editors-picks article a {
+    display: block;
+    height: 78px;
+    font-size: 15px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  .editors-picks article a img {
+    float: left;
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+  }
+  
+  .editors-picks article a h3 {
+    padding-top: 5px;
+  }
+  
+  .editors-picks article a:hover {
+    text-decoration: underline;
+  }
+  
+  .editor {
+    width: 210px;
+    height: 110px;
+  }
+  
+  .editor a {
+    display: block;
+    height: 78px;
+    font-size: 15px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  .editor a img {
+    float: left;
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+  }
+  
+  .editor a h3 {
+    padding-top: 5px;
+  }
+  
+  .editor a:hover {
+    text-decoration: underline;
+  }
+  
+  /* footer */
+  footer {
+    height: 56px;
+    border-top: 1px solid #333333;
+  }
+  
+  .footer-inner-wrapper {
+    height: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: auto;
+  }
+  
+  .footer-text {
+    height: 100%;
+    padding: 19.5px 0 19.5px 58.6px;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .footer-button {
+    float: right;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer-button-text {
+    float: right;
+    padding: 22px 15px 22px 0;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+  
+  .footer-button-icon {
+    float: right;
+    height: 55px;
+    width: 55px;
+    padding: 19.5px;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  /*# sourceMappingURL=style.css.map */
