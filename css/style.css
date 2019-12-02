@@ -418,6 +418,36 @@ header figcaption span:last-of-type {
   line-height: 15px;
 }
 
+.as-big-as-it-gets strong {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.collage {
+  
+}
+
+/* theory of inflation */
+
+.theory-of-inflation {
+  width: 945px;
+  margin: 0 auto;
+}
+
+.theory-of-inflation h1 {
+  margin-bottom: 4px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bolder;
+}
+
+.sub-headline {
+  font-size: 15.5px;
+  line-height: 16.5px;
+  font-weight: 400px;
+  color: #666666;
+}
+
 /* footer */
 footer {
   height: 56px;
