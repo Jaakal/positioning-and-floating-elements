@@ -313,7 +313,7 @@ header figcaption span:last-of-type {
   color: #666666;
 }
 
-.sign-up-button , .comment-button{
+.sign-up-button, .comment-button{
   width: 180px;
   border-radius: 3px;
   font-family: 'Libre Franklin', sans-serif;
@@ -335,15 +335,8 @@ header figcaption span:last-of-type {
   cursor: pointer;
 }
 
-.comment-button {
-    width: 300px;
-  }
-
 .sign-up-button:hover {
   background-color: #326891;
-
-}
-.action{
 
 }
 
@@ -554,6 +547,8 @@ header figcaption span:last-of-type {
   color: #888888;
 }
 
+/* main article ending menu */
+
 #editin-remarque{
 font-size: small;
 line-height: normal;
@@ -562,6 +557,15 @@ color: rgb(102, 102, 102);
 
 #editin-remarque a{
    color:rgb(102, 102, 102); 
+}
+
+.comment-button {
+  width: 300px;
+  margin-top: 0;
+}
+
+.actions {
+  margin: 24px 0 36px 0;
 }
 
 /* footer */
