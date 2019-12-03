@@ -33,7 +33,7 @@ body {
   float: left;
   padding: 12px 13px;
   font-size: 13px;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -49,10 +49,11 @@ body {
   margin: auto;
 }
 
-.navbar-button, .comment-button {
+.navbar-button,
+.comment-button {
   float: right;
   border-radius: 3px;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   -webkit-transition: ease 0.6s;
   transition: ease 0.6s;
   white-space: nowrap;
@@ -316,7 +317,7 @@ header figcaption span:last-of-type {
 .sign-up-button {
   width: 180px;
   border-radius: 3px;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   white-space: nowrap;
   vertical-align: middle;
   background-color: #567b95;
@@ -337,7 +338,6 @@ header figcaption span:last-of-type {
 
 .sign-up-button:hover {
   background-color: #326891;
-
 }
 
 .editors-picks {
@@ -408,7 +408,7 @@ header figcaption span:last-of-type {
 }
 
 .editor a h3:first-of-type {
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 10px;
   line-height: 12px;
   font-weight: bolder;
@@ -425,32 +425,57 @@ header figcaption span:last-of-type {
 }
 
 .collage {
-    width: 100%;
-    background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png") no-repeat;
-    background-size: contain;
-    height: 576px;
+  width: 100%;
+  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png")
+    no-repeat;
+  background-size: contain;
+  height: 576px;
 }
 
-#p1, #p2 , #p3, #p4, #p5 , #p6, #p7 , #p8{
-    width: 228px;
-    float: left;
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7,
+#p8 {
+  width: 228px;
+  float: left;
 }
 
-#p1 span, #p2 span, #p3 span, #p4 span, #p5 span, #p6 span, #p7 span, #p8 span {
-    font-weight: bold;
+#p1 span,
+#p2 span,
+#p3 span,
+#p4 span,
+#p5 span,
+#p6 span,
+#p7 span,
+#p8 span {
+  font-weight: bold;
 }
 
-#p1, #p2 , #p3, #p4 {
-    margin-top: 143px;
-
+#p1,
+#p2,
+#p3,
+#p4 {
+  margin-top: 143px;
 }
 
-#p5, #p6, #p7, #p8 {
-    margin-top: 150px;
+#p5,
+#p6,
+#p7,
+#p8 {
+  margin-top: 150px;
 }
 
-#p1, #p2, #p3, #p5, #p6, #p7 {
-    margin-right: 11px;
+#p1,
+#p2,
+#p3,
+#p5,
+#p6,
+#p7 {
+  margin-right: 11px;
 }
 
 /* theory of inflation */
@@ -474,18 +499,18 @@ header figcaption span:last-of-type {
   color: #666666;
 }
 
-.collage-footer{
-   width: 945px;
-   margin: 24px auto 40px auto;
+.collage-footer {
+  width: 945px;
+  margin: 24px auto 40px auto;
 }
 
 .collage-footer:before {
-    width: 60px;
-    content: '';
-    display: inline-block;
-    height: 1px;
-    margin: 0 0 13px;
-    background-color: #000;
+  width: 60px;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 13px;
+  background-color: #000;
 }
 
 /* video modul */
@@ -496,13 +521,13 @@ header figcaption span:last-of-type {
 }
 
 .video-modul iframe {
-    width: 600px;
-    height: 357.5px
+  width: 600px;
+  height: 357.5px;
 }
 
 .video-modul figcaption {
   margin: 10px 20px 0 0;
-  font-family: georgia,'times new roman',times,serif;
+  font-family: georgia, "times new roman", times, serif;
   text-align: left;
   color: #666;
 }
@@ -549,14 +574,14 @@ header figcaption span:last-of-type {
 
 /* main article ending menu */
 
-#editin-remarque{
-font-size: small;
-line-height: normal;
-color: rgb(102, 102, 102);
+#editin-remarque {
+  font-size: small;
+  line-height: normal;
+  color: rgb(102, 102, 102);
 }
 
-#editin-remarque a{
-   color:rgb(102, 102, 102); 
+#editin-remarque a {
+  color: rgb(102, 102, 102);
 }
 
 .comment-button {
@@ -576,7 +601,7 @@ color: rgb(102, 102, 102);
 /* more articles menu in the page bottom */
 .more-articles {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   max-width: 1200px;
   padding: 20px 3% 0 3%;
   margin: 45px auto 0 auto;
@@ -671,15 +696,17 @@ color: rgb(102, 102, 102);
   color: #999999;
 }
 
-.articles .article-1, .articles .article-2,
-.articles .article-4, .articles .article-5 {
+.articles .article-1,
+.articles .article-2,
+.articles .article-4,
+.articles .article-5 {
   margin-right: 2%;
 }
 
 /* bottom navbar filled with links */
 .link-navbar {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   max-width: 1200px;
   margin: 0px auto;
   padding: 0px 3%;
@@ -784,20 +811,20 @@ color: rgb(102, 102, 102);
 }
 
 .alternate-links {
-    margin: 2px 0px 0px;
-    padding: 10px 0px 0px;
-    border-top: 1px solid #e2e2e2;
+  margin: 2px 0px 0px;
+  padding: 10px 0px 0px;
+  border-top: 1px solid #e2e2e2;
 }
 
 .corporate-links a,
 .alternate-links a {
-    color: #000000;
-    text-transform: capitalize;
-    font-size: 12px;
-    font-weight: 500;
-    height: 23px;
-    line-height: 21px;
-    text-decoration: none;
+  color: #000000;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 21px;
+  text-decoration: none;
 }
 
 .corporate-links a:hover,
@@ -806,11 +833,11 @@ color: rgb(102, 102, 102);
 }
 
 .link-navbar-footer {
-    height: 56px;
-    padding-top: 9px;
-    margin-top: 7px;
-    border-top: 1px solid #ebebeb;
-    text-align: center;
+  height: 56px;
+  padding-top: 9px;
+  margin-top: 7px;
+  border-top: 1px solid #ebebeb;
+  text-align: center;
 }
 
 .link-navbar-footer .links-wrapper {
@@ -861,7 +888,7 @@ color: rgb(102, 102, 102);
 .footer-button-text {
   float: right;
   padding: 22px 15px 22px 0;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-size: 11px;
   text-transform: uppercase;
 }
@@ -872,6 +899,6 @@ color: rgb(102, 102, 102);
   width: 55px;
   padding: 19.5px;
   -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 /*# sourceMappingURL=style.css.map */
