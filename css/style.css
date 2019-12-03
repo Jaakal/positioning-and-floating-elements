@@ -100,11 +100,10 @@ header h1 {
   text-align: center;
 }
 
-.css-11cwn6f{
-min-width: 600px;
-max-width: 1004px;
-cursor: pointer;
-margin: auto;
+.main-picture {
+  max-width: 100%;
+  cursor: pointer;
+  margin: auto;
 }
 
 header h1 span {
@@ -551,9 +550,8 @@ header figcaption span:last-of-type {
 
 .collage {
   width: 100%;
-  background:
-    url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png")
-    no-repeat;
+  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-repeat: no-repeat;
   background-size: contain;
   height: 576px;
 }
@@ -607,7 +605,7 @@ header figcaption span:last-of-type {
 #p6,
 #p7,
 #p8 {
-  margin-top: 150px;
+  margin-top: 170px;
 }
 
 #p1,
@@ -781,7 +779,7 @@ header figcaption span:last-of-type {
   color: #999;
 }
 
-.articles article time {
+.articles article .time {
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.3px;
