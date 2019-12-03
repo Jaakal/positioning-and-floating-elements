@@ -39,7 +39,7 @@ body {
   text-decoration: none;
   letter-spacing: 0.7px;
   line-height: 18px;
-  color: #000000;
+  color: #000;
 }
 
 .navbar-headline {
@@ -219,7 +219,7 @@ header figcaption span:last-of-type {
   text-transform: uppercase;
   border-style: none;
   overflow: visible;
-  padding: 0px 0px 4px;
+  padding: 0 0 4px;
   cursor: pointer;
 }
 
@@ -229,41 +229,41 @@ header figcaption span:last-of-type {
   min-height: 14px;
   width: auto;
   background: transparent;
-  border: 1px solid #666666;
+  border: 1px solid #666;
   border-radius: 4px;
   padding: 4px;
 }
 
-.comments-button i span:before {
+.comments-button i span::before {
   content: "";
   display: block;
   position: absolute;
   bottom: -7px;
   left: 15px;
-  width: 0px;
-  border-color: #666666 transparent;
+  width: 0;
+  border-color: #666 transparent;
   border-style: solid;
-  border-width: 6px 0px 0px 8px;
+  border-width: 6px 0 0 8px;
 }
 
-.comments-button i span:after {
+.comments-button i span::after {
   content: "";
   display: block;
   position: absolute;
   bottom: -6px;
   left: 16px;
-  width: 0px;
-  border-color: #ffffff transparent;
+  width: 0;
+  border-color: #fff transparent;
   border-style: solid;
-  border-width: 6px 0px 0px 6px;
+  border-width: 6px 0 0 6px;
 }
 
 .comments-button:hover i {
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.comments-button:hover i span:before {
-  border-color: #cccccc transparent;
+.comments-button:hover i span::before {
+  border-color: #ccc transparent;
 }
 
 .paragraph-wrapper {
@@ -279,6 +279,12 @@ header figcaption span:last-of-type {
   margin-left: calc((100% - 600px) / 2);
 }
 
+.sign-up p {
+  font-size: 15px;
+  line-height: 16px;
+  color: #666;
+}
+
 .paragraph-wrapper .main-text p {
   margin-bottom: 15px;
   font-size: 20px;
@@ -286,8 +292,124 @@ header figcaption span:last-of-type {
   line-height: 30px;
 }
 
+.corporate-links a,
+.alternate-links a {
+  color: #000;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.link-navbar-footer a {
+  display: inline-block;
+  padding: 10px 0;
+  margin: 0 10px;
+  font-size: 12px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #999;
+}
+
+.subscribe-links a {
+  color: #000;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0;
+  text-decoration: none;
+}
+
+.links-topic a {
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  height: 24px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #000;
+}
+
+.editor a {
+  display: block;
+  height: 78px;
+  text-decoration: none;
+  color: #333;
+}
+
+.links-topic h3,
+.subscribe h3 {
+  color: #333;
+  font-size: 13px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.articles article a {
+  text-decoration: none;
+}
+
+.editors-picks article a {
+  display: block;
+  height: 78px;
+  font-size: 15px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #333;
+}
+
+.link-navbar-footer a:hover {
+  text-decoration: underline;
+}
+
+.corporate-links a:hover,
+.alternate-links a:hover {
+  text-decoration: underline;
+}
+
+.subscribe-links a:hover {
+  text-decoration: underline;
+}
+
+.links-topic a:hover {
+  text-decoration: underline;
+}
+
+.link-navbar-header a:last-of-type {
+  float: right;
+  margin-top: 18px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+  color: #567b95;
+}
+
+.link-navbar-header a:first-of-type {
+  text-decoration: none;
+}
+
 .paragraph-wrapper .main-text p a {
   color: #326891;
+}
+
+.more-articles .article-links-without-pictures h3 a {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23px;
+  text-decoration: none;
+  color: #121212;
+}
+
+.editors-picks article a:hover {
+  text-decoration: underline;
 }
 
 .paragraph-wrapper .main-text p a:hover {
@@ -306,12 +428,6 @@ header figcaption span:last-of-type {
   font-size: 18px;
   font-weight: bold;
   line-height: 24px;
-}
-
-.sign-up p {
-  font-size: 15px;
-  line-height: 16px;
-  color: #666666;
 }
 
 .sign-up-button {
@@ -349,7 +465,7 @@ header figcaption span:last-of-type {
 .editors-picks h2 {
   font-weight: 700;
   color: black;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 15px;
   padding-bottom: 12px;
   font-size: 16px;
@@ -362,13 +478,27 @@ header figcaption span:last-of-type {
   margin-bottom: 15px;
 }
 
-.editors-picks article a {
-  display: block;
-  height: 78px;
-  font-size: 15px;
-  line-height: 17px;
-  text-decoration: none;
-  color: #333333;
+.articles article h3 {
+  padding-right: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #121212;
+}
+
+.telescope-image-modul img {
+  max-width: 720px;
+}
+
+.articles article img {
+  max-width: 100%;
+}
+
+.editor a img {
+  float: left;
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
 }
 
 .editors-picks article a img {
@@ -382,10 +512,6 @@ header figcaption span:last-of-type {
   padding-top: 5px;
 }
 
-.editors-picks article a:hover {
-  text-decoration: underline;
-}
-
 .editor {
   width: 210px;
   height: 95px;
@@ -393,18 +519,10 @@ header figcaption span:last-of-type {
   background-color: rgba(0, 0, 0, 0.03);
 }
 
-.editor a {
-  display: block;
-  height: 78px;
-  text-decoration: none;
-  color: #333333;
-}
-
-.editor a img {
-  float: left;
-  width: 75px;
-  height: 75px;
-  margin-right: 10px;
+.more-articles .article-links-without-pictures h3 {
+  max-width: 100%;
+  padding: 15px 0;
+  border-top: 1px solid #e2e2e2;
 }
 
 .editor a h3:first-of-type {
@@ -426,7 +544,8 @@ header figcaption span:last-of-type {
 
 .collage {
   width: 100%;
-  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png")
+  background:
+    url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png")
     no-repeat;
   background-size: contain;
   height: 576px;
@@ -442,6 +561,21 @@ header figcaption span:last-of-type {
 #p8 {
   width: 228px;
   float: left;
+}
+
+.telescope-image-modul figcaption span:last-of-type {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #888;
+}
+
+.telescope-image-modul figcaption span:first-of-type {
+  margin-right: 7px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #666;
 }
 
 #p1 span,
@@ -496,7 +630,7 @@ header figcaption span:last-of-type {
   font-size: 15.5px;
   line-height: 16.5px;
   font-weight: 400px;
-  color: #666666;
+  color: #666;
 }
 
 .collage-footer {
@@ -504,7 +638,7 @@ header figcaption span:last-of-type {
   margin: 24px auto 40px auto;
 }
 
-.collage-footer:before {
+.collage-footer::before {
   width: 60px;
   content: "";
   display: inline-block;
@@ -543,7 +677,7 @@ header figcaption span:last-of-type {
   font-size: 13px;
   line-height: 17px;
   font-weight: 400;
-  color: #888888;
+  color: #888;
 }
 
 /* telescope image modul */
@@ -553,31 +687,16 @@ header figcaption span:last-of-type {
   margin: 43px auto;
 }
 
-.telescope-image-modul img {
-  max-width: 720px;
-}
-
-.telescope-image-modul figcaption span:first-of-type {
-  margin-right: 7px;
-  font-size: 16px;
-  line-height: 19px;
-  font-weight: 400;
-  color: #666;
-}
-
-.telescope-image-modul figcaption span:last-of-type {
-  font-size: 14px;
-  line-height: 17px;
-  font-weight: 400;
-  color: #888888;
-}
-
 /* main article ending menu */
 
 #editin-remarque {
   font-size: small;
   line-height: normal;
   color: rgb(102, 102, 102);
+}
+
+.more-articles .article-links-without-pictures h3 a:hover {
+  color: #666;
 }
 
 #editin-remarque a {
@@ -619,34 +738,16 @@ header figcaption span:last-of-type {
   width: 320px;
 }
 
-.more-articles .article-links-without-pictures h2 {
-  margin-bottom: 15px;
-}
-
-.more-articles .article-links-without-pictures h3 {
-  max-width: 100%;
-  padding: 15px 0px;
-  border-top: 1px solid #e2e2e2;
-}
-
-.more-articles .article-links-without-pictures h3 a {
-  font-size: 19px;
-  font-weight: 500;
-  line-height: 23px;
-  text-decoration: none;
-  color: #121212;
-}
-
-.more-articles .article-links-without-pictures h3 a:hover {
-  color: #666666;
-}
-
 .more-articles h2 {
   max-width: 100%;
   padding-top: 17px;
   font-size: 16px;
   font-weight: 700;
   border-top: 1px solid black;
+}
+
+.more-articles .article-links-without-pictures h2 {
+  margin-bottom: 15px;
 }
 
 .clear {
@@ -664,36 +765,20 @@ header figcaption span:last-of-type {
   padding-bottom: 20px;
 }
 
-.articles article a {
-  text-decoration: none;
-}
-
-.articles article img {
-  max-width: 100%;
-}
-
 .articles article figcaption {
   padding: 3px 0 4px 0;
   font-size: 10.5px;
   font-weight: 400;
   line-height: 12.8px;
   text-align: right;
-  color: #999999;
-}
-
-.articles article h3 {
-  padding-right: 10px;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 22px;
-  color: #121212;
+  color: #999;
 }
 
 .articles article time {
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.3px;
-  color: #999999;
+  color: #999;
 }
 
 .articles .article-1,
@@ -708,37 +793,27 @@ header figcaption span:last-of-type {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   max-width: 1200px;
-  margin: 0px auto;
-  padding: 0px 3%;
+  margin: 0 auto;
+  padding: 0 3%;
 }
 
-.link-navbar:before {
+.link-navbar::before {
   content: "";
   display: block;
   height: 1px;
-  margin-top: 0px;
+  margin-top: 0;
   border-bottom: 1px solid #e2e2e2;
   border-top: 2px solid #e2e2e2;
 }
 
-.link-navbar-header a:first-of-type {
-  text-decoration: none;
+.subscribe-links svg {
+  width: 13px;
+  height: 13px;
 }
 
 .link-navbar-header a:first-of-type svg {
   width: 184px;
   height: 44px;
-}
-
-.link-navbar-header a:last-of-type {
-  float: right;
-  margin-top: 18px;
-  font-size: 11px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 11px;
-  text-decoration: none;
-  color: #567b95;
 }
 
 .link-container {
@@ -754,20 +829,6 @@ header figcaption span:last-of-type {
   height: 24px;
 }
 
-.links-topic a {
-  text-transform: capitalize;
-  font-size: 15px;
-  font-weight: 500;
-  height: 24px;
-  line-height: 17px;
-  text-decoration: none;
-  color: #000000;
-}
-
-.links-topic a:hover {
-  text-decoration: underline;
-}
-
 .subscribe {
   float: right;
   width: 213.33px;
@@ -780,56 +841,10 @@ header figcaption span:last-of-type {
   margin-bottom: 10px;
 }
 
-.subscribe-links a {
-  color: #000000;
-  text-transform: capitalize;
-  font-size: 16px;
-  font-weight: 700;
-  height: 25px;
-  line-height: 15px;
-  padding-bottom: 0px;
-  text-decoration: none;
-}
-
-.subscribe-links a:hover {
-  text-decoration: underline;
-}
-
-.subscribe-links svg {
-  width: 13px;
-  height: 13px;
-}
-
-.links-topic h3,
-.subscribe h3 {
-  color: #333333;
-  font-size: 13px;
-  font-weight: 700;
-  height: 25px;
-  line-height: 15px;
-  text-transform: uppercase;
-}
-
 .alternate-links {
-  margin: 2px 0px 0px;
-  padding: 10px 0px 0px;
+  margin: 2px 0 0;
+  padding: 10px 0 0;
   border-top: 1px solid #e2e2e2;
-}
-
-.corporate-links a,
-.alternate-links a {
-  color: #000000;
-  text-transform: capitalize;
-  font-size: 12px;
-  font-weight: 500;
-  height: 23px;
-  line-height: 21px;
-  text-decoration: none;
-}
-
-.corporate-links a:hover,
-.alternate-links a:hover {
-  text-decoration: underline;
 }
 
 .link-navbar-footer {
@@ -844,24 +859,10 @@ header figcaption span:last-of-type {
   display: inline-block;
 }
 
-.link-navbar-footer a {
-  display: inline-block;
-  padding: 10px 0px;
-  margin: 0 10px;
-  font-size: 12px;
-  white-space: nowrap;
-  text-decoration: none;
-  color: #999999;
-}
-
-.link-navbar-footer a:hover {
-  text-decoration: underline;
-}
-
 /* sticky footer */
 .sticky-footer {
   height: 56px;
-  border-top: 1px solid #333333;
+  border-top: 1px solid #333;
 }
 
 .footer-inner-wrapper {
@@ -901,4 +902,3 @@ header figcaption span:last-of-type {
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
-/*# sourceMappingURL=style.css.map */
